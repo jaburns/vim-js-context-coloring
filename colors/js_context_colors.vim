@@ -12,14 +12,22 @@
 
 hi JSCC_UndeclaredGlobal ctermfg=199 guifg=#FF0000
 hi JSCC_Level_0 ctermfg=15 guifg=#ffffff
-hi JSCC_Level_1 ctermfg=2 guifg=#008000
-hi JSCC_Level_2 ctermfg=3 guifg=#808000
-hi JSCC_Level_3 ctermfg=4 guifg=#000080
-hi JSCC_Level_4 ctermfg=1 guifg=#800000
-hi JSCC_Level_5 ctermfg=6 guifg=#008080
+hi JSCC_Level_1 ctermfg=243 guifg=#008000
+hi JSCC_Level_2 ctermfg=4 guifg=#808000
+hi JSCC_Level_3 ctermfg=1 guifg=#000080
+hi JSCC_Level_4 ctermfg=6 guifg=#800000
+hi JSCC_Level_5 ctermfg=3 guifg=#008080
 hi JSCC_Level_6 ctermfg=7 guifg=#c0c0c0
 
-hi Comment ctermfg=243 guifg=#767676
+" 15 white
+" 243 grey
+" 3  brown
+" 4 blue
+" 1 red
+" 6 cyan
+" 7 magenta
+
+hi Comment ctermfg=8 guifg=#767676
 
 if !g:js_context_colors_colorize_comments
     hi link javaScriptComment              Comment
